@@ -7,7 +7,22 @@ width= fit-content;
 background-color:#4F2323;
 height: 120px;
 }
+.navbuttons ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+.navbutton {
+  display: inline-block;
+}
 
+.navbutton a::after {
+  display: inline-block;
+  color: #000;
+  content: " ";
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
   
 </style>
 <head>
@@ -17,7 +32,14 @@ height: 120px;
 </head>
 <body>
   <div id="redbar">
-  
+  <img href="images/favicon.ico" alt="logo" style="border-radius:30px">
+    
+  <nav class="navbuttons">
+    <ol>
+      <li class="navbutton"><a href="#"><button type="button">Button1</a></button>
+      <li class="navbutton"><a href="#"><button type="button">Button2</a></button>
+    </ol>
+  </nav>
   
   </div>
 <main>
