@@ -8,16 +8,14 @@
     background-color:#c5c2b5;
     height: 110px;
     border-radius:15px;
-    list-style-type: none;
-    display: inline-block;
 }
-  
+    
   #icon{
 
     width:80px;
     height: 80px;
     border-radius: 30px;
-    padding-left:40px;
+    margin-left:40px;
     margin-top:13px;
   }
 
@@ -26,13 +24,18 @@
     height: 80px;
     width:100px;
     border-radius: 15px;
-  
     margin-top:10px;
     margin-bottom:10px;
     background-color: #c8af84;
 }
 
-
+  .nav{
+    margin:20px;
+    
+    list-style-type: none;
+    display: inline-block;
+    text-align:right;
+  }
   
 </style>
 <head>
@@ -41,12 +44,14 @@
   
 </head>
 <body style="background-color:#38663f">
-
+<div id="bar">
       <a href="#bar"><img src="images/icon.jpg" alt="logo" id="icon"></a></li>
-  <nav id="bar">
-      <a href="#bar" style="padding-left:180px" class="navbutton">Button1</a></li>
-      <a href="#bar" style="padding-left:60px" class="navbutton">Button2</a></li>
+  <nav id="nav">
+    <ul>
+      <li><a href="#bar" class="navbutton">Button1</a></li>
+      <li><a href="#bar" class="navbutton">Button2</a></li>
   </nav>
+</div>
 <main>
 
   
