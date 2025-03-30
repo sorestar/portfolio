@@ -2,39 +2,35 @@
 <html lang="en">
 <meta charset="UTF-8">
 <style>
+
+.navigation{
+  text-align:left;
+  padding-left:100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
   
 #bar{
 width= fit-content;
 background-color:#c5c2b5;
 height: 100px;
-  text-align: left;
   border-radius:15px;
 }
   #icon{
     width:80px;
     height:80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-radius: 30px;
   }
 
 .navbutton{
-    padding-left:20px;
     background-color: #c8af84;
     border-radius: 15px;
     width:160px;
     height:80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
   
 }
 
 
-
-#button{
-  width:120px;
-  height:80px;
-}
   
 </style>
 <head>
@@ -44,10 +40,10 @@ height: 100px;
 </head>
 <body style="background-color:#38663f">
   <div id="bar">
-  <nav>
+  <nav class="navigation">
       <a href="#bar"><img src="images/icon.jpg" alt="logo" id="icon"></a>
-      <a href="#" class="navbutton"><button type="button" id="button" style="padding-left:130px">Button1</a></button>
-      <a href="#bar" class="navbutton"><button type="button" id="button">Button2</a></button>
+      <a href="#" class="navbutton"><button type="button" style="padding-left:130px">Button1</a></button>
+      <a href="#bar" class="navbutton"><button type="button">Button2</a></button>
   </nav>
   </div>
 <main>
