@@ -3,5 +3,22 @@
   src:url('fonts/stardom.woff2') format('woff2');
   font-style:normal;
   font-weight:bold;
-  
+}
+@font-face{
+  font-family:"zodiak-bold";
+  src:url('fonts/Zodiac-Extrabold.woff2') format('woff2');
+  font-style:normal;
+  font-weight:bold;
+}
+@font-face{
+  font-family:"zodiak";
+  src:url('fonts/Zodiak-Regular.woff2') format('woff2');
+  font-style:normal;
+  font-weight:bold;
+}
+@font-face{
+  font-family: "tanker";
+  src:url('fonts/Tanker-Regular.woff2') format('woff2');
+  font-style:normal;
+  font-weight:bold;
 }
