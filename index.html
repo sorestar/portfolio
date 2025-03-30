@@ -3,25 +3,7 @@
 <html lang="en">
 <meta charset="UTF-8">
 <style>
-a, a:visited, a:hover, a:active {
-  color: inherit;
-  text-decoration: none;
-}
 
- p{
-  font-family:'stardom';
- }
- 
-#nav{
-   display: inline-block;
-    margin-top:10px;
-    font-family:"zodiak-bold";
-    color:white;
-    background-color:black;
-    word-spacing:40px;
-    border: none;
-    float:right;
-}
   #about{
 
    
@@ -39,12 +21,7 @@ a, a:visited, a:hover, a:active {
 
     
   }
- section{
-   margin-bottom: 30em;
- }
- h1{
-  font-family:"zodiak-bold"
- }
+
 </style>
 <head>
  
@@ -54,7 +31,16 @@ a, a:visited, a:hover, a:active {
 </head>
  
 <body style="background-color:#706D54">
-
+<div class="container">
+<h1><span class="auto-type"></span></h1>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script>
+  var typed= new Typed(".auto-type", {
+   strings ["Hello, World"],
+                      typeSpeed:150,
+   loop:false})
+ </script>
 <main>
  <div id="nav">
     <!--<img src="images/icon.jpg" alt="logo" id="icon">-->
