@@ -41,6 +41,10 @@ a, a:visited, a:hover, a:active {
   position: relative;
   align-items: center;
 }
+.container img{
+  width:300px;
+  height:300px;
+}
  p{
   font-family:'stardom';
  }
