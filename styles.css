@@ -27,7 +27,6 @@ a, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 .container{
-  color:#545770;
   font-size:400;
   display:flex;
   justify-content:center;
