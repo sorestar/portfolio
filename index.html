@@ -3,12 +3,7 @@
 <meta charset="UTF-8">
 <style>
 
-  #bar{
-    width= fit-content;
-    background-color:#c5c2b5;
-    height: 90px;
-    border-radius:15px;
-}
+  
   body{
     background-image: url("road.jpg");
     background-repeat: no-repeat;
@@ -17,35 +12,16 @@
         background-size:100% 100%;
 
   }
-  #icon{
-
-    width:80px;
-    height: 80px;
-    border-radius: 30px;
-    margin-left:40px;
-    margin-top:6px;
-  }
 
 
-
-  #navbutton{
-    margin-right:60px;
-      width: 100px;
-    background-image: url('images/filesimage.jpg') no-repeat;
-     height: 70px;
-     background-color: #c8af84;
-    border-radius: 15px;
-    display: inline-block;
+#nav{
+   display: inline-block;
     margin-top:10px;
     font-family:"zodiak-bold";
     
     border: none;
     float:right;
-  }
-  
-  #navbutton:hover{
-  background-color:#968363;
-  }
+}
   #about{
 
     
@@ -64,19 +40,47 @@
   }
 </style>
 <head>
+  <!--
+  style에서
+  #icon{
+
+    width:80px;
+    height: 80px;
+    border-radius: 30px;
+    margin-left:40px;
+    margin-top:6px;
+  }
+
+    #navbutton{
+    margin-right:60px;
+      width: 100px;
+     height: 70px;
+     background-color: #c8af84;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top:10px;
+    font-family:"zodiak-bold";
+    
+    border: none;
+    float:right;
+  }
   
+  #navbutton:hover{
+  background-color:#968363;
+  }
+-->
   <title>Portfolio</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
    <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color:#38663f">
   
-<div id="bar">
-    <img src="images/icon.jpg" alt="logo" id="icon">
-    <button onclick="#projects" id="navbutton">Projects</button>
-    <button onclick="#activities" id="navbutton">Activities</button>
-    <button onclick="#resume" id="navbutton">Resume</button>
-    <button onclick="#about" id="navbutton" >About Me</button>
+<div id="nav">
+    <!--<img src="images/icon.jpg" alt="logo" id="icon">-->
+    <a href="#projects">Projects</a>
+     <a href="#activities">Activities</a>
+     <a href="#resume">Resume</a>
+     <a href="#about">About Me</a>
 </div>
 <main >
 <section id="about">
