@@ -26,7 +26,13 @@ a, a:visited, a:hover, a:active {
   color: inherit;
   text-decoration: none;
 }
-
+.container{
+  justify-content: center;
+  display:flex;
+  font-size:400;
+  
+  align-items: center;
+}
  p{
   font-family:'stardom';
  }
