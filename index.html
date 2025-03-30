@@ -4,37 +4,27 @@
 <style>
 
   #bar{
-width= fit-content;
-background-color:#c5c2b5;
-height: 110px;
-  border-radius:15px;
-}
-  
-.navigation{
-  text-align: left;
-  margin:0;
-  padding:0;
-  width= fit-content;
-background-color:#c5c2b5;
-height: 110px;
-  border-radius:15px;
+    width= fit-content;
+    background-color:#c5c2b5;
+    height: 110px;
+    border-radius:15px;
+    
+    list-style-type: none;
+    display: inline-block;
 }
   
   #icon{
-    display: inline-block;
+
     width:80px;
     
-  list-style-type: none;
   height: 80px;
     border-radius: 30px;
     padding-left:40px;
   }
 
 .navbutton{
-    display: inline-block;
     background-color: #c8af84;
   
-  list-style-type: none;
   height: 80px;
     border-radius: 15px;
     width:100px;
@@ -51,11 +41,10 @@ height: 110px;
 <body style="background-color:#38663f">
   <div id="bar">
   <nav>
-    <ul class="navigation">
-      <li><a href="#bar"><img src="images/icon.jpg" alt="logo" id="icon"></a></li>
-      <li><a href="#bar" style="padding-left:130px" class="navbutton">Button1</a></li>
-      <li><a href="#bar" style="padding-left:60px" class="navbutton">Button2</a></li>
-    </ul>
+      <a href="#bar"><img src="images/icon.jpg" alt="logo" id="icon"></a></li>
+      <a href="#bar" style="padding-left:130px" class="navbutton">Button1</a></li>
+      <a href="#bar" style="padding-left:60px" class="navbutton">Button2</a></li>
+
   </nav>
   </div>
 <main>
