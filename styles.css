@@ -22,3 +22,28 @@
   font-style:normal;
   font-weight:bold;
 }
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+ p{
+  font-family:'stardom';
+ }
+
+ section{
+   margin-bottom: 30em;
+ }
+ h1{
+  font-family:"zodiak-bold"
+ }
+#nav{
+   display: inline-block;
+    margin-top:10px;
+    font-family:"zodiak-bold";
+    color:white;
+    background-color:black;
+    word-spacing:40px;
+    border: none;
+    float:right;
+}
