@@ -7,10 +7,6 @@ width= fit-content;
 background-color:#4F2323;
 height: 80px;
 }
-.navbuttons ol {
-  list-style-type: none;
-  padding-left: 20px;
-}
   #icon{
     width:80px;
     height:80px;
@@ -45,11 +41,11 @@ height: 80px;
 <body style="background-color:#38663f">
   <div id="redbar">
   <nav class="navbuttons">
-    <ol>
-      <li class="navbutton"><a href="#redbar"><img src="images/icon.jpg" alt="logo" id="icon"></a></li>
-      <li class="navbutton"><a href="#"><button type="button" id="button" style="padding-left:130px">Button1</a></button></li>
-      <li class="navbutton"><a href="#redbar"><button type="button" id="button">Button2</a></button></li>
-    </ol>
+    
+      <a href="#redbar"><img src="images/icon.jpg" alt="logo" id="icon"></a>
+      <a href="#" class="navbutton"><button type="button" id="button" style="padding-left:130px">Button1</a></button>
+      <a href="#redbar" class="navbutton"><button type="button" id="button">Button2</a></button>
+    
   </nav>
   
   </div>
