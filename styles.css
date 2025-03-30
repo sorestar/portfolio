@@ -26,16 +26,19 @@ a, a:visited, a:hover, a:active {
   color: inherit;
   text-decoration: none;
 }
+.centered{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
 .container{
   font-size:400;
   display:flex;
   justify-content:center;
   margin-top:30px;
   height:150px;
-  background-image:url('images/typewriter.jpg');
-  background-repeat: no-repeat;
-  
-  
+  position: relative;
   align-items: center;
 }
  p{
