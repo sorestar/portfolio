@@ -27,10 +27,9 @@ a, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 .container{
-  justify-content: center;
-  display:flex;
+  background-color:#545770;
   font-size:400;
-  
+  margin-top:30px;
   align-items: center;
 }
  p{
