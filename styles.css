@@ -11,6 +11,12 @@
   font-weight:bold;
 }
 @font-face{
+  font-family:'dirtyline';
+  src:url('fonts/Dirtyline 36daysoftype 2022.woff2') format('woff2');
+  font-style:normal;
+  font-weight:normal;
+}
+@font-face{
   font-family:"zodiak";
   src:url('fonts/Zodiak-Regular.woff2') format('woff2');
   font-style:normal;
@@ -33,7 +39,6 @@ a, a:visited, a:hover, a:active {
   margin-top:30px;
   display:flex;
   height: 100vh;
-  margin-left:auto;
   justify-content: center;
   align-items: center;
   
