@@ -29,10 +29,11 @@ a, a:visited, a:hover, a:active {
 }
 
 .container{
-  font-size:400;
+  font-size:700;
   margin-top:30px;
   display:flex;
   margin-right:auto;
+  height:1080px;
   margin-left:auto;
   justify-content: center;
   align-items: center;
