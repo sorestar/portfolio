@@ -1,28 +1,30 @@
- 
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
 <style>
 
-  #about{
-
-   
-  }
- 
-  #resume{
-
+  #about1{
     
+    font-size:x-large; 
+    font-weight:bolder;
+    width:100vw;
   }
- 
-  #activities{
 
-    text-align:right;
+ 
+  #pursuits{
+
+    text-align:left;
   }
  
   #projects{
 
     
   }
+ 
+  #contact{
+
+    
+}
 
 </style>
  
@@ -30,116 +32,167 @@
   <title>Iris Bae Portfolio</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 </head>
  
-<body style="background-color:#c9c8bf">
+<body style="background-color:#c9c8bf; height:100vh; " id="about">
 
-<main>
+<main style="width:100vw; background-color:#545770">
+<section style="margin-left:25%;">
  <div id="nav">
-  <p style="text-align:left;"></p>
      <a href="#about" style="word-spacing:2px">About Me</a>
-     <a href="#resume">Resume</a>
-     <a href="#activities">Activities</a>
-    <a href="#projects">Projects</a>
+     <a href="#pursuits">Pursuits</a>
+     <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
 </div>
- <br>
- <br>
- <br>
- <div class="container" style="height:100vh; font-size:700;">
+</section>
+
+ <div class="container">
+
   <h1><span class="auto-type"></span></h1>
 </div>
+
  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
- <script 
-   style="font-family:dirtyline;">
+ <script>
  
   var typed= new Typed(".auto-type", {
-   strings: ["Hello, World"],
-                      typeSpeed:150,
-   
+   strings: ["Hello, World"], typeSpeed:150, 
    loop:false
   })
  </script>
-   
-</main>
  
- <br>
- <br>
-<section style="height:100vh;">
- <br><br><br><br>
-  <h1  id="about">About me</h1>
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Curabitur in pharetra sem. Nam pretium venenatis est quis laoreet.
-  Morbi nibh massa, consequat ac libero eget, euismod iaculis ipsum. Ut mauris sem,
-  facilisis a ipsum quis, luctus facilisis orci. Maecenas ultrices metus quis turpis iaculis luctus. 
-  Aliquam nec vestibulum justo. Nulla laoreet arcu vel sodales aliquet.</p>
+ <article id="info" >
+    <div class="icons" >
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-unity"></i>
+        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/c-plus-plus-logo.png" alt="c-plus-plus-logo"/>
+        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/c-sharp-logo.png" alt="c-sharp-logo"/>
+    
+        <i class="fa-brands fa-python"></i>
+        </div>
+    <h3>
+    Hi! My name is Iris Bae.<br>
+    I'm an aspiring developer that self-taught HTML/CSS/Unity/C#/Python.<br>
+    I have the tendancy to lock in on a project, spending sleepless nights.<br>
+    Thanks to this, I learn skills fast and thoroughly.<br>
+    I'm currently learning C++ and want to learn more.<br>
+    I love learning new things regardless of what field it's in.<br>
+    Scroll down to see more about me!<br>
+    </h3>
+
+ </article>
+</main>
+<br><br><br><br><br><hr style="height:6px; background-color:gray">
+<section style="text-align:left;">
+    <h3 class="name" id="pursuits">𖦹Pursuits(the things I love)</h3>
+    <p>I am someone who firmly believes that anything is possible. <br>
+       Throughout my gap year, I started and continued various pursuits. <br>
+       These are some activities that I'm still doing to this day.
+
+    </p>
+ <article>
+    <br>
+    <h4 style="text-align:left;">-Drawing</h4>
+    <i class="fa-brands fa-square-instagram" style="font-size:medium;"><a href="https://instagram.com/_sorestar/">  @_sorestar</a></i>
+    <p></p>
+    <div class="drawings">
+    
+    </div>
+    <p>
+     2018.Sep<br>
+       The date I first won an award through my work and the date I fell in love with painting.
+     Visualising something that was only in my head granted me a whole new feeling of achievement.
+    <br>  Although my passion for creating, I slowly had to prioritize studying and just recently(2024.Jan~) grabbed my pen to start learning all over again.
+     If the little me enjoyed drawing from scratch, I now learned to love urban sketching.
+     <br>  I established an instagram account for my art and implemented my skills to pottery as well.
+     
+    </p>
+ </article>
+    <br><br>
+ <article style="text-align:right;">
+<h4>-Guitar</h4>
+<p>
+    I bought this classic guitar to practice songs for my music class back in 2023.<br>
+    The catch was-I was supposed to buy an acoustic guitar but messed up, buying the wrong one.
+   <br> To this day, I'm teaching myself to play a song, learning a couple of lines each day.<br>
+    You can listen to my performance here!⬇
+</p>
+<audio controls>
+    <source src="guitar.mp3" type="audio/mpeg">
+    Good little Girl - Adventure Time
+</audio>
+ </article>
+<article style="text-align:left;">
+<h4>-Running</h4>
+<p>
+    I own three medals.
+    The first one is from a 3km marathon, participated in 7th grade.<br>
+    The other two are from last year, both 10kms.
+    Despite not earning any gold medals, I'm glad to take a foot into running, as the goal is to finish, not win.<br>
+    I still work out several days a week, and am hoping to run another marathon one day.
+
+</p>
+
+</article>
+
 </section>
-  
+  <br><br>
+  <hr style="height:6px; background-color:gray">
+  <br><br>
+
 <section style="height:100vh;">
-   <h1 id="resume">My Resume</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Curabitur in pharetra sem. Nam pretium venenatis est quis laoreet.
-  Morbi nibh massa, consequat ac libero eget, euismod iaculis ipsum. Ut mauris sem,
-  facilisis a ipsum quis, luctus facilisis orci. Maecenas ultrices metus quis turpis iaculis luctus. 
-  Aliquam nec vestibulum justo. Nulla laoreet arcu vel sodales aliquet.</p>
+   <h3 id="projects" style="text-align:center;" class="name">𖦹Projects</h3>
+   
+   <div style="display:inline-flex; margin-left:10px;">
+   <a href="https://iamhyxxn.itch.io/shadow"><img src='images/shadowcover.jpg' style="border-radius:25px; width:400px; height:250px;" alt="Shadow, the game">
+    <figcaption style="font-family:tanker; text-align:center; color:gray">You can click the image to play</figcaption></a>
+  <iframe style="border-radius:25px;" width="420" height="250" src="https://youtube.com/embed/Hm8gDCAqoIo"></iframe>
+  </div>  
+  <br><br>
+    <p>
+        This is a game submitted to the <a style="color:blue; text-decoration:underline;" href="https://itch.io/jam/gmtk-2024">2024 GMTK Game Jam</a> called 'Shadow'.<br>
+        I worked as the leader of a team of four. Juggling various tasks-pixel art, building levels, coding, uploading-we were able to make this game to life within 72 hours.<br>
+        I am still implementing certain features to the game, since it means more than just a video game to me.<br>
+
+    </p>
+    <div style="display:inline-flex; margin-left:10px;">
+    <div><img src="images/multiplayer.png" alt="in-game image" style="width:400px; height:250px; border-radius:25px;" alt="in-game image">
+    <figcaption style="font-family:tanker; text-align:center; color:gray">All artwork is drawn by me</figcaption></div>
+    <iframe style="border-radius:25px;" width="420" height="250" src="https://youtube.com/embed/ROdEezLr8uY"></iframe>
+      </div>
+      <br><br>
+    <p>
+        This is a multiplayer game I am currently working on.<br>
+        After submitting "Shadow", I brainstormed the idea for this relaxing multiplayer game.<br>
+        The objective is to help neighbors around you, solving riddles and often fighting to protect them.<br>
+        The multiplayer feature is already executed but the development of the game is delayed since I'm taking time to learn game storytelling and C#.<br>
+        
+    </p>
 </section>
+<br>
+<br>
+<hr style="height:6px; background-color:gray">
+<br>
+<br>
   
-<section style="height:100vh;">
-   <h1 id="activities">My Activities</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Curabitur in pharetra sem. Nam pretium venenatis est quis laoreet.
-  Morbi nibh massa, consequat ac libero eget, euismod iaculis ipsum. Ut mauris sem,
-  facilisis a ipsum quis, luctus facilisis orci. Maecenas ultrices metus quis turpis iaculis luctus. 
-  Aliquam nec vestibulum justo. Nulla laoreet arcu vel sodales aliquet.</p>
-</section>
-  
-<section style="height:100vh;">
-   <h1 id="projects">My Projects</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  Curabitur in pharetra sem. Nam pretium venenatis est quis laoreet.
-  Morbi nibh massa, consequat ac libero eget, euismod iaculis ipsum. Ut mauris sem,
-  facilisis a ipsum quis, luctus facilisis orci. Maecenas ultrices metus quis turpis iaculis luctus. 
-  Aliquam nec vestibulum justo. Nulla laoreet arcu vel sodales aliquet.</p>
+<section>
+   <h3 id="contact" style="text-align:center;" class="name">𖦹Contact</h3>
+  <p style="text-align:center;">
+    You can contact me within the links below.<br>
+    I'm updating my github page frequently, so come and hang out anytime.<br>
+    Thank you.
+  </p>
+  <br><br>
 </section>
 
   
 </body>
+<footer id="foot" style="padding-left:32%;">
+  <a href="https://instagram.com/_sorestar/"><i class="fa-brands fa-square-instagram"></i></a>
+  <a href="mailto:starryhyun32@gmail.com"><i class="fa-solid fa-envelope" style="color:black;"></i></a>
+  <a href="https://github.com/sorestar"><i class="fa-brands fa-github"></i></a>
 
+</footer>
   
 </html>
- <!--
-  style에서
-  #icon{
-
-    width:80px;
-    height: 80px;
-    border-radius: 30px;
-    margin-left:40px;
-    margin-top:6px;
-  }
- 
-  body{
-    background-image: url("road.jpg");
-    background-repeat: no-repeat;
-    height:6000px;
-    
-        background-size:100% 100%;
-
-  }
-    #navbutton{
-    margin-right:60px;
-      width: 100px;
-     height: 70px;
-     background-color: #c8af84;
-    border-radius: 15px;
-    display: inline-block;
-    margin-top:10px;
-    font-family:"zodiak-bold";
-    
-    border: none;
-    float:right;
-  }
-  
-  #navbutton:hover{
-  background-color:#968363;
-  }
--->
