@@ -105,6 +105,7 @@
   }
   html {
     scroll-behavior: smooth;
+      width:100vw;
   }
   i{
     font-size:3em;
