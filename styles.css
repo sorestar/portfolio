@@ -1,67 +1,155 @@
 @font-face{
-  font-family: "stardom";
-  src:url('fonts/stardom.woff2') format('woff2');
-  font-style:normal;
-  font-weight:bold;
-}
-@font-face{
-  font-family:"zodiak-bold";
-  src:url('fonts/Zodiak-Extrabold.woff') format('woff');
-  font-style:normal;
-  font-weight:bold;
-}
-@font-face{
-  font-family:'dirtyline';
-  src:url('fonts/Dirtyline 36daysoftype 2022.woff2') format('woff2');
-  font-style:normal;
-  font-weight:normal;
-}
-@font-face{
-  font-family:"zodiak";
-  src:url('fonts/Zodiak-Regular.woff2') format('woff2');
-  font-style:normal;
-  font-weight:bold;
-}
-@font-face{
-  font-family: "tanker";
-  src:url('fonts/Tanker-Regular.woff2') format('woff2');
-  font-style:normal;
-  font-weight:bold;
-}
-
-a, a:visited, a:hover, a:active {
-  color: inherit;
-  text-decoration: none;
-}
-
-.container{
-  
-  margin-top:30px;
-  display:flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  
-  
-}
- p{
-  font-family:'stardom';
- }
-
- section{
-   margin-bottom: 30em;
- }
- h1{
-  font-family:"zodiak-bold"
- }
-#nav{
-   display: inline-block;
-    margin-top:10px;
+    font-family: "stardom";
+    src:url('fonts/stardom.woff2') format('woff2');
+    font-style:normal;
+    font-weight:bold;
+  }
+  @font-face{
     font-family:"zodiak-bold";
-    color:#ededea;
-  width:100wh;
+    src:url('fonts/Zodiak-Extrabold.woff2') format('woff2');
+    font-style:normal;
+    font-weight:bold;
+  }
+  @font-face{
+    font-family:'dirtyline';
+    src:url('fonts/Dirtyline 36daysoftype 2022.woff2') format('woff2');
+    font-style:normal;
+    font-weight:normal;
+  }
+  @font-face{
+    font-family:"zodiak";
+    src:url('fonts/Zodiak-Regular.woff2') format('woff2');
+    font-style:normal;
+    font-weight:bold;
+  }
+  @font-face{
+    font-family: "tanker";
+    src:url('fonts/Tanker-Regular.woff2') format('woff2');
+    font-style:normal;
+    font-weight:bold;
+  }
+  @font-face{
+    font-family: "maleha";
+    src:url('fonts/Maleha.ttf') format('truetype');
+    font-style:normal;
+    font-weight:100;
+  }
+  @font-face{
+    font-family:"vortigra";
+    src: url("fonts/Vortigra.otf") format("opentype");
+    font-size:medium;
+    font-style:normal;
+    font-weight:normal;
+  }
+  @font-face{
+    font-family:"alice";
+    src: url("fonts/Alice-Regular.ttf") format("truetype");
+    font-size:medium;
+    font-style:normal;
+    font-weight:normal;
+  }
+  
+  #nav a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #info{
+    padding-right:55px;
+    line-height:30px;
+    padding-top:0.00001px;
+    font-family:'vortigra';
+    text-align:right;
+    margin-top:50%; 
+    background-color:#c9c8bf;
+  }
+  #foot{
+    display:inline-flex;
+    margin-left:10%;
+  }
+  #foot a:hover{
+    color:#545770;
+  }
+  html{
+    max-width:1200px;
+
+  }
+  .container{
+    
+    position:absolute;
     background-color:#545770;
-    word-spacing:40px;
-    border: none;
-    float:right;
-}
+    justify-content: center;
+    margin-top:10%;
+    align-items: center;
+    text-align:center;
+    font-family:'dirtyline';
+    
+  }
+  
+  h4{
+    font-family:'vortigra';
+    font-size:x-large;
+    font-weight:bolder;
+
+  }
+  .drawings{
+    display:inline-flex;
+    align-items:left;
+    padding-left:30px;
+    width:80px;
+    height:auto;
+    
+  }
+  .icons{
+    display:flex;
+    padding-left:20px;
+    width:100vw;
+    background-color:#545770;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  i{
+    font-size:3em;
+    padding-right:8px;
+    
+    
+  }
+  .name{
+    font-family:'vortigra';
+    font-size:x-large; 
+    font-weight:bolder;
+  }
+   p{
+    font-family:'alice';
+    font-weight:bold;
+    word-spacing:3px;
+    font-size:normal;
+   }
+   span{
+    font-family:'dirtyline';
+    font-size:100px;
+    font-weight:bold;
+    letter-spacing:10px;
+   }
+  
+   h1{
+    display:table;
+    margin-top:8%;
+    width:100vw; 
+    height:40px; 
+    background-color:#545770;
+   }
+  #nav{
+     margin-left:auto;
+     margin-right:auto;
+     display: inline-block;
+      margin-top:10px;
+      font-family:"vortigra";
+      color:#ededea;
+      word-spacing:40px;
+  }
+  h3{
+    font-family:'alice';
+    font-weight:bold;
+  }
